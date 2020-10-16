@@ -149,7 +149,8 @@ nav ul li:not(:last-child) {
 /* HERO */
 
 .main-section {
-  background: var(--main-footer-background-color);
+  background-image: url("../img/icons/logo.jpg");
+  background-size: cover;
   text-align: center;
   padding-bottom: 200px;
   padding-top: 200px;
