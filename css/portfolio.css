@@ -157,10 +157,7 @@ nav ul li:not(:last-child) {
 /* Кнопки */
 
 .button {
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
+  padding: 6px 22px;
   background: rgba(245, 244, 250, 1);
   border-radius: 4px;
   font-style: normal;
