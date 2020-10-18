@@ -406,7 +406,6 @@ nav ul li:not(:last-child) {
 }
 
 .clients-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -457,8 +456,9 @@ nav ul li:not(:last-child) {
 
 .footer {
   background: var(--main-footer-background-color);
+  padding-left: 215px;
+  padding: 60px;
   padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .webstudio-footer {
@@ -520,4 +520,52 @@ nav ul li:not(:last-child) {
 .adress-footer {
   display: flex;
   flex-direction: column;
+}
+
+/* 2 СЕКЦІЯ */
+
+.footer-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.footerr-container {
+  width: 206px;
+  margin-left: 70px;
+}
+
+.footerr-container .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link:hover {
+  background-color: var(--text-hover-focus);
+}
+
+.footer-link .icon {
+  fill: #ffffff;
 }
