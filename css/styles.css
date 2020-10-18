@@ -224,7 +224,8 @@ nav ul li:not(:last-child) {
 
 .lii-item {
   width: 270px;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .lii-item:not(:last-child) {
@@ -257,6 +258,17 @@ nav ul li:not(:last-child) {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
+}
+
+.svg-container {
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 244, 250, 1);
 }
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ!!! */
@@ -384,6 +396,61 @@ nav ul li:not(:last-child) {
 
 .icon {
   fill: rgba(175, 177, 184, 1);
+}
+
+/* ПОСТОЯННЫЕ КЛИЕНТЫ */
+
+.clients {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.clients-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}
+
+.clients .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-item {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-item:hover {
+  border-color: #2196f3;
+}
+
+.clients-item:focus {
+  border-color: #2196f3;
+}
+
+.clients-icon {
+  fill: rgba(175, 177, 184, 1);
+}
+
+.clients-item:hover .clients-icon {
+  fill: var(--text-hover-focus);
+}
+
+.clients-item:focus .clients-icon {
+  fill: var(--text-hover-focus);
 }
 
 /* ПІДВАЛ*/
